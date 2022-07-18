@@ -1,2 +1,2 @@
 # projeto-fullstack-web
-Trabalho Escolar
+Projeto da aula de Projeto de Interfaces Web
