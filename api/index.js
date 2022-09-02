@@ -1,8 +1,8 @@
 'use strict'
 
-var mongoose = require('mongoose');
-var app = require('./app');
-var port = 3800;
+const mongoose = require('mongoose');
+const app = require('./app');
+const port = 3800;
 
 // Conexão com o banco de dados
 mongoose.Promise = global.Promise;
