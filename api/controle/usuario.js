@@ -1,12 +1,12 @@
 'use strict';
 
-const Usuario = require('../modelos/usuarios');
+const Usuario = require('../models/usuarios');
 
 function inicio(req, res) {
     res.status(200).send({
-        nome: 'Luan Gustavo',
+        nome: 'Beatriz Mattos',
         idade: '18',
-        apelido: '...',
+        apelido: 'Biah',
     });
 }
 
