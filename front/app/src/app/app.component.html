@@ -1,45 +1,18 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto de Interfaces Web</title>
-</head>
-
-<body>
- 
-
-  <div class="container">
-    <div class="header">
-      <h1>Login</h1>
+<div class="navigation-col-12">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand">{{ title }}</a>
+      </div>
+      <ul class="navbar navbar-nav">
+        <li>
+          <a href="#">
+            Cadastro
+          </a>
+        </li>
+      </ul>
     </div>
+  </nav>
+</div>
 
-    <form action="" method="post" class="form">
-      <div class="text">
-        <label for="user">Nome de usuário ou e-mail</label>
-        <input type="text" name="user" id="user" />
-        <small>Erro</small>
-      </div>
-
-      <div class="text">
-        <label for="password">Senha</label>
-        <input type="text" name="password" id="password" />
-        <small>Erro</small>
-      </div>
-
-      <div class="buttons">
-        <button type="submit">Entrar</button>
-        <button type="reset">Cancelar</button>
-      </div>
-    </form>
-
-    <div class="footer">
-      <p>Não possui uma conta ainda?</p>
-      <p>Então <a href="cadastrar.php">cadastre-se agora</a></p>
-    </div>
-  </div>
-</body>
-
-</html>
+<router-outlet> </router-outlet>
