@@ -1,6 +1,6 @@
-import {RouterModule, Routes} from "@angular/router";
+import {RouterModule, Routes} from '@angular/router';
 import {ModuleWithProviders} from "@angular/core";
-import { LoginComponent } from "componentes/login/login.component";
+import { LoginComponent } from "./componentes/login/login.component";
 
 
 const app_rotas: Routes = [
